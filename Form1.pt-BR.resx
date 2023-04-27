@@ -1,0 +1,275 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="registrarCaminhãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="registrarCaminhãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Registrar Caminhão</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 26</value>
+  </data>
+  <data name="rEgistraCaminhãoToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 18pt, style=Bold</value>
+  </data>
+  <data name="rEgistraCaminhãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="rEgistraCaminhãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Caminhão</value>
+  </data>
+  <data name="produtoToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 18pt, style=Bold</value>
+  </data>
+  <data name="produtoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 32</value>
+  </data>
+  <data name="produtoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="relatórioToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 18pt, style=Bold</value>
+  </data>
+  <data name="relatórioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 32</value>
+  </data>
+  <data name="relatórioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="promoçãoToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 18pt, style=Bold</value>
+  </data>
+  <data name="promoçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 32</value>
+  </data>
+  <data name="promoçãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Promoção</value>
+  </data>
+  <data name="vendaToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 18pt, style=Bold</value>
+  </data>
+  <data name="vendaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 32</value>
+  </data>
+  <data name="vendaToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Venda</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 36</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="registrarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="registrarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="registrarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="deletarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="deletarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="deletarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deletar</value>
+  </data>
+  <data name="modificarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="modificarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="modificarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="procurarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="procurarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="procurarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="registrarToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="registrarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="registrarToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="deletarToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="deletarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="deletarToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Deletar</value>
+  </data>
+  <data name="procurarToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="procurarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="procurarToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="porPlacaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 30</value>
+  </data>
+  <data name="porPlacaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Por Placa</value>
+  </data>
+  <data name="peloProprietárioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 30</value>
+  </data>
+  <data name="peloProprietárioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pelo Proprietário</value>
+  </data>
+  <data name="vendaToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 15.75pt</value>
+  </data>
+  <data name="vendaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="vendaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="faturamentoToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 15.75pt</value>
+  </data>
+  <data name="faturamentoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="faturamentoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Faturamento</value>
+  </data>
+  <data name="lucroToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="lucroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="lucroToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lucro</value>
+  </data>
+  <data name="caminhõesToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="caminhõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="caminhõesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Caminhões</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="registraToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="registraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="registraToolStripMenuItem.Text" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="deletaToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="deletaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="deletaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deleta</value>
+  </data>
+  <data name="modificaToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 15.75pt</value>
+  </data>
+  <data name="modificaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="modificaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+</root>

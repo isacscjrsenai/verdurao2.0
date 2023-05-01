@@ -34,16 +34,16 @@
             registrarCaminhãoToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1 = new MenuStrip();
             rEgistraCaminhãoToolStripMenuItem = new ToolStripMenuItem();
-            produtoToolStripMenuItem = new ToolStripMenuItem();
-            registrarToolStripMenuItem = new ToolStripMenuItem();
-            deletarToolStripMenuItem = new ToolStripMenuItem();
-            modificarToolStripMenuItem = new ToolStripMenuItem();
-            procurarToolStripMenuItem = new ToolStripMenuItem();
             registrarToolStripMenuItem1 = new ToolStripMenuItem();
             deletarToolStripMenuItem1 = new ToolStripMenuItem();
             procurarToolStripMenuItem1 = new ToolStripMenuItem();
             porPlacaToolStripMenuItem = new ToolStripMenuItem();
             peloProprietárioToolStripMenuItem = new ToolStripMenuItem();
+            produtoToolStripMenuItem = new ToolStripMenuItem();
+            registrarToolStripMenuItem = new ToolStripMenuItem();
+            deletarToolStripMenuItem = new ToolStripMenuItem();
+            modificarToolStripMenuItem = new ToolStripMenuItem();
+            procurarToolStripMenuItem = new ToolStripMenuItem();
             relatórioToolStripMenuItem = new ToolStripMenuItem();
             vendaToolStripMenuItem = new ToolStripMenuItem();
             faturamentoToolStripMenuItem = new ToolStripMenuItem();
@@ -55,6 +55,10 @@
             deletaToolStripMenuItem = new ToolStripMenuItem();
             modificaToolStripMenuItem = new ToolStripMenuItem();
             vendaToolStripMenuItem1 = new ToolStripMenuItem();
+            usuárioToolStripMenuItem = new ToolStripMenuItem();
+            criarToolStripMenuItem = new ToolStripMenuItem();
+            deletarToolStripMenuItem2 = new ToolStripMenuItem();
+            deslogarToolStripMenuItem = new ToolStripMenuItem();
             contextMenuStrip1.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -73,7 +77,7 @@
             // menuStrip1
             // 
             resources.ApplyResources(menuStrip1, "menuStrip1");
-            menuStrip1.Items.AddRange(new ToolStripItem[] { rEgistraCaminhãoToolStripMenuItem, produtoToolStripMenuItem, relatórioToolStripMenuItem, promoçãoToolStripMenuItem, vendaToolStripMenuItem1 });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { rEgistraCaminhãoToolStripMenuItem, produtoToolStripMenuItem, relatórioToolStripMenuItem, promoçãoToolStripMenuItem, vendaToolStripMenuItem1, usuárioToolStripMenuItem });
             menuStrip1.Name = "menuStrip1";
             // 
             // rEgistraCaminhãoToolStripMenuItem
@@ -82,6 +86,35 @@
             rEgistraCaminhãoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { registrarToolStripMenuItem1, deletarToolStripMenuItem1, procurarToolStripMenuItem1 });
             rEgistraCaminhãoToolStripMenuItem.Name = "rEgistraCaminhãoToolStripMenuItem";
             rEgistraCaminhãoToolStripMenuItem.Click += rEgistraCaminhãoToolStripMenuItem_Click;
+            // 
+            // registrarToolStripMenuItem1
+            // 
+            resources.ApplyResources(registrarToolStripMenuItem1, "registrarToolStripMenuItem1");
+            registrarToolStripMenuItem1.Name = "registrarToolStripMenuItem1";
+            registrarToolStripMenuItem1.Click += registrarToolStripMenuItem1_Click;
+            // 
+            // deletarToolStripMenuItem1
+            // 
+            resources.ApplyResources(deletarToolStripMenuItem1, "deletarToolStripMenuItem1");
+            deletarToolStripMenuItem1.Name = "deletarToolStripMenuItem1";
+            deletarToolStripMenuItem1.Click += deletarToolStripMenuItem1_Click;
+            // 
+            // procurarToolStripMenuItem1
+            // 
+            resources.ApplyResources(procurarToolStripMenuItem1, "procurarToolStripMenuItem1");
+            procurarToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { porPlacaToolStripMenuItem, peloProprietárioToolStripMenuItem });
+            procurarToolStripMenuItem1.Name = "procurarToolStripMenuItem1";
+            // 
+            // porPlacaToolStripMenuItem
+            // 
+            resources.ApplyResources(porPlacaToolStripMenuItem, "porPlacaToolStripMenuItem");
+            porPlacaToolStripMenuItem.Name = "porPlacaToolStripMenuItem";
+            porPlacaToolStripMenuItem.Click += porPlacaToolStripMenuItem_Click;
+            // 
+            // peloProprietárioToolStripMenuItem
+            // 
+            resources.ApplyResources(peloProprietárioToolStripMenuItem, "peloProprietárioToolStripMenuItem");
+            peloProprietárioToolStripMenuItem.Name = "peloProprietárioToolStripMenuItem";
             // 
             // produtoToolStripMenuItem
             // 
@@ -93,6 +126,7 @@
             // 
             resources.ApplyResources(registrarToolStripMenuItem, "registrarToolStripMenuItem");
             registrarToolStripMenuItem.Name = "registrarToolStripMenuItem";
+            registrarToolStripMenuItem.Click += registrarToolStripMenuItem_Click;
             // 
             // deletarToolStripMenuItem
             // 
@@ -108,32 +142,6 @@
             // 
             resources.ApplyResources(procurarToolStripMenuItem, "procurarToolStripMenuItem");
             procurarToolStripMenuItem.Name = "procurarToolStripMenuItem";
-            // 
-            // registrarToolStripMenuItem1
-            // 
-            resources.ApplyResources(registrarToolStripMenuItem1, "registrarToolStripMenuItem1");
-            registrarToolStripMenuItem1.Name = "registrarToolStripMenuItem1";
-            // 
-            // deletarToolStripMenuItem1
-            // 
-            resources.ApplyResources(deletarToolStripMenuItem1, "deletarToolStripMenuItem1");
-            deletarToolStripMenuItem1.Name = "deletarToolStripMenuItem1";
-            // 
-            // procurarToolStripMenuItem1
-            // 
-            resources.ApplyResources(procurarToolStripMenuItem1, "procurarToolStripMenuItem1");
-            procurarToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { porPlacaToolStripMenuItem, peloProprietárioToolStripMenuItem });
-            procurarToolStripMenuItem1.Name = "procurarToolStripMenuItem1";
-            // 
-            // porPlacaToolStripMenuItem
-            // 
-            resources.ApplyResources(porPlacaToolStripMenuItem, "porPlacaToolStripMenuItem");
-            porPlacaToolStripMenuItem.Name = "porPlacaToolStripMenuItem";
-            // 
-            // peloProprietárioToolStripMenuItem
-            // 
-            resources.ApplyResources(peloProprietárioToolStripMenuItem, "peloProprietárioToolStripMenuItem");
-            peloProprietárioToolStripMenuItem.Name = "peloProprietárioToolStripMenuItem";
             // 
             // relatórioToolStripMenuItem
             // 
@@ -195,6 +203,27 @@
             vendaToolStripMenuItem1.Name = "vendaToolStripMenuItem1";
             vendaToolStripMenuItem1.Click += vendaToolStripMenuItem1_Click;
             // 
+            // usuárioToolStripMenuItem
+            // 
+            resources.ApplyResources(usuárioToolStripMenuItem, "usuárioToolStripMenuItem");
+            usuárioToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { criarToolStripMenuItem, deletarToolStripMenuItem2, deslogarToolStripMenuItem });
+            usuárioToolStripMenuItem.Name = "usuárioToolStripMenuItem";
+            // 
+            // criarToolStripMenuItem
+            // 
+            resources.ApplyResources(criarToolStripMenuItem, "criarToolStripMenuItem");
+            criarToolStripMenuItem.Name = "criarToolStripMenuItem";
+            // 
+            // deletarToolStripMenuItem2
+            // 
+            resources.ApplyResources(deletarToolStripMenuItem2, "deletarToolStripMenuItem2");
+            deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
+            // 
+            // deslogarToolStripMenuItem
+            // 
+            resources.ApplyResources(deslogarToolStripMenuItem, "deslogarToolStripMenuItem");
+            deslogarToolStripMenuItem.Name = "deslogarToolStripMenuItem";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -202,6 +231,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
+            Load += Form1_Load;
             contextMenuStrip1.ResumeLayout(false);
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
@@ -236,5 +266,9 @@
         private ToolStripMenuItem deletaToolStripMenuItem;
         private ToolStripMenuItem modificaToolStripMenuItem;
         private ToolStripMenuItem vendaToolStripMenuItem1;
+        private ToolStripMenuItem usuárioToolStripMenuItem;
+        private ToolStripMenuItem criarToolStripMenuItem;
+        private ToolStripMenuItem deletarToolStripMenuItem2;
+        private ToolStripMenuItem deslogarToolStripMenuItem;
     }
 }

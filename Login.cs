@@ -23,7 +23,8 @@ namespace VerduraoDoJoao2._0
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            textBox1.BackColor = Color.White;
+            maskedTextBox1.BackColor = Color.White;
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
@@ -44,23 +45,12 @@ namespace VerduraoDoJoao2._0
                 else
                 {
                     tentativas++;
-                    textBox1.BackColor = Color.IndianRed;
+                    timer1.Enabled = true;
+                    timer1.Start();
+                    timer2.Enabled = true;
+                    timer2.Start();
                     maskedTextBox1.BackColor = Color.IndianRed;
-                    
-                    for(var i=0; i<15; i++)
-                    {
-                        groupBox1.Location.Offset(-10, 0);
-                        Thread.Sleep(20);
-                        groupBox1.Location.Offset(10, 0);
-                        groupBox1.Update();
-                        Thread.Sleep(20);
-                        groupBox1.Location.Offset(10, 0);
-                        groupBox1.Update();
-                        Thread.Sleep(20);
-                        groupBox1.Location.Offset(-10, 0);
-                        groupBox1.Update();
-                        Thread.Sleep(20);
-                    }
+                    textBox1.BackColor = Color.IndianRed;
                 }
             }
             if (tentativas >= 3)
@@ -69,5 +59,38 @@ namespace VerduraoDoJoao2._0
             }
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            var X = groupBox1.Location.X;
+            var Y = groupBox1.Location.Y;
+            bool ReachLeft = false, ReachRight = false;
+            if (X >= 260)
+            {
+                ReachRight = true;
+                ReachLeft = false;
+            }
+            if (X <= 240)
+            {
+                ReachLeft = true;
+                ReachRight = false;
+            } 
+
+            if (!ReachRight)
+            {
+                groupBox1.Location = new Point(X+ 5, Y);
+            }
+            if (ReachRight && !ReachLeft)
+            {
+                groupBox1.Location = new Point(X- 5, Y);
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            timer1.Stop();
+            timer2.Enabled = false;
+            timer2.Stop();
+        }
     }
 }

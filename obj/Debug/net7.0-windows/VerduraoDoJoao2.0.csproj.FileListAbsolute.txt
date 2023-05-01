@@ -20,3 +20,6 @@ C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\refint\Ve
 C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2.0.pdb
 C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2.0.genruntimeconfig.cache
 C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\ref\VerduraoDoJoao2.0.dll
+C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.Caminhao1.resources
+C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.CaminhaoDeletar.resources
+C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.CaminhaoProcuraPorPlaca.resources

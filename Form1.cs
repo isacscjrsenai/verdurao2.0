@@ -31,5 +31,32 @@ namespace VerduraoDoJoao2._0
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void registrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Caminhao1 formCaminhao = new Caminhao1();
+            formCaminhao.Show();
+        }
+
+        private void deletarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CaminhaoDeletar formCaminhaDeletar = new CaminhaoDeletar();
+            formCaminhaDeletar.Show();
+        }
+
+        private void porPlacaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CaminhaoProcuraPorPlaca formCaminhaoPorPlaca = new CaminhaoProcuraPorPlaca();
+            formCaminhaoPorPlaca.Show();
+        }
     }
 }

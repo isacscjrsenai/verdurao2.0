@@ -18,5 +18,14 @@ namespace VerduraoDoJoao2._0
                 Application.Run(new Form1());
             }
         }
+        static void RegistraCaminhao()
+        {
+
+        }
+        static void DeletaCaminhao(string caminhao)
+        {
+
+        }
+
     }
 }

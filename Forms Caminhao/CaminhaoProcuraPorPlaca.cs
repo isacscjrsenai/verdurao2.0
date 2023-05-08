@@ -29,12 +29,15 @@ namespace VerduraoDoJoao2._0
             string placaSelecionada = itemSelecionado.Substring(1, itemSelecionado.IndexOf(',') - 1);
             var caminhao = Caminhao.caminhoes[placaSelecionada];
             idTextBox.Text = caminhao.Proprietario;
-            fabricanteComboBox.Text = caminhao.Fabricante;
-            corComboBox.Text = caminhao.Cor;
-            modeloComboBox.Text = caminhao.Modelo;
-            anoComboBox.Text = caminhao.AnoDeFabricacao.ToString();
-            KmTextBox.Text = caminhao.KmRodado.ToString();
-            renavamTextBox.Text = caminhao.Renavam.ToString();
+            fabricanteTextBox.Text = caminhao.Fabricante;
+            corTextBox.Text = caminhao.Cor;
+            modeloTextBox.Text = caminhao.Modelo;
+            anoTextBox.Text = caminhao.AnoDeFabricacao.ToString();
+            kmTextBox.Text = caminhao.KmRodado.ToString();
+            renavamTexBox.Text = caminhao.Renavam.ToString();
         }
+
+ 
+
     }
 }

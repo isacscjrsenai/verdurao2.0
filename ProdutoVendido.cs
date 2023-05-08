@@ -10,6 +10,7 @@ namespace VerduraoDoJao.Melanciometro
     internal class ProdutoVendido
     {
         public double QuantVendida { get; set; }
+        public double PrecoPraticado { get; set; }
         public double ValorVendido { get; set; }
         public double LucroObtido { get; set; }
         public int DiaDaSemana { get; set; }
@@ -19,6 +20,7 @@ namespace VerduraoDoJao.Melanciometro
             var promocao = Promocao.AplicaPromocao(produto, diaDaSemana);
             double preco = double.Parse(promocao[0]);
             double custo = produto.Custo;
+            PrecoPraticado = preco;
             ValorVendido = quantVendida * preco;
             QuantVendida = quantVendida;
             LucroObtido = quantVendida * (preco - custo);

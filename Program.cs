@@ -1,3 +1,4 @@
+using VerduraoDoJao.Melanciometro;
 namespace VerduraoDoJoao2._0
 {
     internal static class Program
@@ -10,6 +11,8 @@ namespace VerduraoDoJoao2._0
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+            new Produto("Melancia Normal", 8.5, 4.5, "Kg");
+            new Produto("Melancia Baby", 10.95, 6.75, "kg");
             ApplicationConfiguration.Initialize();
             var Login = new Login();
             Application.Run(Login);

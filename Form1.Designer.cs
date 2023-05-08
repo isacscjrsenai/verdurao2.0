@@ -115,6 +115,7 @@
             // 
             resources.ApplyResources(peloProprietárioToolStripMenuItem, "peloProprietárioToolStripMenuItem");
             peloProprietárioToolStripMenuItem.Name = "peloProprietárioToolStripMenuItem";
+            peloProprietárioToolStripMenuItem.Click += peloProprietárioToolStripMenuItem_Click;
             // 
             // produtoToolStripMenuItem
             // 
@@ -132,11 +133,13 @@
             // 
             resources.ApplyResources(deletarToolStripMenuItem, "deletarToolStripMenuItem");
             deletarToolStripMenuItem.Name = "deletarToolStripMenuItem";
+            deletarToolStripMenuItem.Click += deletarToolStripMenuItem_Click;
             // 
             // modificarToolStripMenuItem
             // 
             resources.ApplyResources(modificarToolStripMenuItem, "modificarToolStripMenuItem");
             modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            modificarToolStripMenuItem.Click += modificarToolStripMenuItem_Click;
             // 
             // procurarToolStripMenuItem
             // 

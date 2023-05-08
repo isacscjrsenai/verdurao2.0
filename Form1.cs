@@ -29,7 +29,8 @@ namespace VerduraoDoJoao2._0
 
         private void vendaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            Venda formVenda = new Venda();
+            formVenda.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,6 +40,8 @@ namespace VerduraoDoJoao2._0
 
         private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            ProdutoRegistrar formRegistraProduto = new ProdutoRegistrar();
+            formRegistraProduto.Show();
         }
 
         private void registrarToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -57,6 +60,24 @@ namespace VerduraoDoJoao2._0
         {
             CaminhaoProcuraPorPlaca formCaminhaoPorPlaca = new CaminhaoProcuraPorPlaca();
             formCaminhaoPorPlaca.Show();
+        }
+
+        private void peloProprietárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CaminhaoProcuraPorId formCaminhaoPorId = new CaminhaoProcuraPorId();
+            formCaminhaoPorId.Show();
+        }
+
+        private void deletarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProdutoDeletar formProdutoDeletar = new ProdutoDeletar();
+            formProdutoDeletar.Show();
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProdutoModificar formProdutoModificar = new ProdutoModificar();
+            formProdutoModificar.Show();
         }
     }
 }

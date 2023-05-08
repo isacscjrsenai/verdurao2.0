@@ -9,8 +9,7 @@ namespace VerduraoDoJao.Melanciometro
 
     internal class Produto
     {
-        public static List<Produto> produtos = new List<Produto>();
-        
+        public static Dictionary<string,Produto> produtos = new Dictionary<string, Produto>();
         public string Nome { set; get; }
         public double Preco { set; get; }
         public double Custo { set; get; }
@@ -21,7 +20,7 @@ namespace VerduraoDoJao.Melanciometro
             Preco = preco;
             Custo = custo;
             Unidade = unidade;
-            produtos.Add(this);
+            produtos.Add(nome,this);
         }
     }
 }

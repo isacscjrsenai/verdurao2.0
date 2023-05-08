@@ -67,11 +67,17 @@
   <data name="registrarToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
   </data>
+  <data name="registrarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
   <data name="registrarToolStripMenuItem1.Text" xml:space="preserve">
     <value>Registrar</value>
   </data>
   <data name="deletarToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="deletarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
   </data>
   <data name="deletarToolStripMenuItem1.Text" xml:space="preserve">
     <value>Deletar</value>
@@ -84,6 +90,9 @@
   </data>
   <data name="procurarToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
+  </data>
+  <data name="procurarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
   </data>
   <data name="procurarToolStripMenuItem1.Text" xml:space="preserve">
     <value>Procurar</value>
@@ -100,17 +109,11 @@
   <data name="registrarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
   </data>
-  <data name="registrarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 30</value>
-  </data>
   <data name="registrarToolStripMenuItem.Text" xml:space="preserve">
     <value>Registrar</value>
   </data>
   <data name="deletarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
-  </data>
-  <data name="deletarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 30</value>
   </data>
   <data name="deletarToolStripMenuItem.Text" xml:space="preserve">
     <value>Deletar</value>
@@ -118,17 +121,11 @@
   <data name="modificarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
   </data>
-  <data name="modificarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 30</value>
-  </data>
   <data name="modificarToolStripMenuItem.Text" xml:space="preserve">
     <value>Modificar</value>
   </data>
   <data name="procurarToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
-  </data>
-  <data name="procurarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 30</value>
   </data>
   <data name="procurarToolStripMenuItem.Text" xml:space="preserve">
     <value>Procurar</value>

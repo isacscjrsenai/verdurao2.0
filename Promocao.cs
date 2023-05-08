@@ -21,6 +21,7 @@ namespace VerduraoDoJao.Melanciometro
         { 
             this.diaDaSemana = diaDaSemana;
             this.desconto = desconto;
+            this.descPromocao = "-";
         }
         public Promocao(int diaDaSemana, double desconto, string descPromocao)
         {
@@ -44,7 +45,7 @@ namespace VerduraoDoJao.Melanciometro
             else
             {
                 desconto = 0;
-                descPromocao = "NULL";
+                descPromocao = "-";
             }
             
             var precoPromocional = (preco - (preco * (desconto/100))).ToString();

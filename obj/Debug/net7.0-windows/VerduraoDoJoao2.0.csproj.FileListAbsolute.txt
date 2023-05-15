@@ -28,3 +28,4 @@ C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoD
 C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.ProdutoDeletar.resources
 C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.ProdutoModificar.resources
 C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.Venda.resources
+C:\Users\isacs\source\repos\VerduraoDoJoao2.0\obj\Debug\net7.0-windows\VerduraoDoJoao2._0.VendaModificaItem.resources

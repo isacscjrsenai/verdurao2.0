@@ -86,6 +86,7 @@
             // 
             // adicionarProdutoBtn
             // 
+            adicionarProdutoBtn.Enabled = false;
             adicionarProdutoBtn.Location = new Point(12, 162);
             adicionarProdutoBtn.Name = "adicionarProdutoBtn";
             adicionarProdutoBtn.Size = new Size(75, 23);
@@ -97,9 +98,12 @@
             // quantidadeProdutoTextBox
             // 
             quantidadeProdutoTextBox.Location = new Point(12, 133);
+            quantidadeProdutoTextBox.MaxLength = 4;
             quantidadeProdutoTextBox.Name = "quantidadeProdutoTextBox";
             quantidadeProdutoTextBox.Size = new Size(100, 23);
             quantidadeProdutoTextBox.TabIndex = 24;
+            quantidadeProdutoTextBox.TextChanged += quantidadeProdutoTextBox_TextChanged;
+            quantidadeProdutoTextBox.KeyPress += quantidadeProdutoTextBox_KeyPress;
             // 
             // unidadeLabel
             // 
@@ -194,6 +198,7 @@
             deletaItemBtn.TabIndex = 36;
             deletaItemBtn.Text = "Deletar Item";
             deletaItemBtn.UseVisualStyleBackColor = true;
+            deletaItemBtn.Click += deletaItemBtn_Click;
             // 
             // fechaVendaBtn
             // 

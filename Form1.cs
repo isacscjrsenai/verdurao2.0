@@ -1,3 +1,5 @@
+using VerduraoDoJao.Melanciometro;
+
 namespace VerduraoDoJoao2._0
 {
     public partial class Form1 : Form
@@ -29,8 +31,17 @@ namespace VerduraoDoJoao2._0
 
         private void vendaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Venda formVenda = new Venda();
-            formVenda.Show();
+
+            if (Caminhao.caminhoes.Count == 0)
+            {
+                MessageBox.Show("Não existe caminhão registrado ainda\nRegistre um caminhão no menu caminhão", "Verdurão do João", MessageBoxButtons.OK);
+
+            }
+            else
+            {
+                Venda formVenda = new Venda();
+                formVenda.Show();
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)

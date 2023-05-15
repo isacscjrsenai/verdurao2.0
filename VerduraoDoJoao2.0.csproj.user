@@ -31,5 +31,8 @@
     <Compile Update="Venda.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VendaModificaItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

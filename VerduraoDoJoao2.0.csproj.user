@@ -28,6 +28,9 @@
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Promocao_Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Venda.cs">
       <SubType>Form</SubType>
     </Compile>

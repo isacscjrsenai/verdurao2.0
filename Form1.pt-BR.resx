@@ -181,26 +181,17 @@
   <data name="registraToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
   </data>
-  <data name="registraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 30</value>
-  </data>
   <data name="registraToolStripMenuItem.Text" xml:space="preserve">
     <value>Registra</value>
   </data>
   <data name="deletaToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 16pt</value>
   </data>
-  <data name="deletaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 30</value>
-  </data>
   <data name="deletaToolStripMenuItem.Text" xml:space="preserve">
     <value>Deleta</value>
   </data>
   <data name="modificaToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Bauhaus 93, 15.75pt</value>
-  </data>
-  <data name="modificaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 30</value>
   </data>
   <data name="modificaToolStripMenuItem.Text" xml:space="preserve">
     <value>Modifica</value>

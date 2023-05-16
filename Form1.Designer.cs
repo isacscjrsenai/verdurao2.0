@@ -189,6 +189,7 @@
             // 
             resources.ApplyResources(registraToolStripMenuItem, "registraToolStripMenuItem");
             registraToolStripMenuItem.Name = "registraToolStripMenuItem";
+            registraToolStripMenuItem.Click += registraToolStripMenuItem_Click;
             // 
             // deletaToolStripMenuItem
             // 

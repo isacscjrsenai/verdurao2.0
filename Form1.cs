@@ -63,18 +63,33 @@ namespace VerduraoDoJoao2._0
 
         private void deletarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            if (Caminhao.caminhoes.Count == 0)
+            {
+                MessageBox.Show("Não há caminhão registrado ainda\nPara registra um caminhão acesso o menu Caminhão - Registrar", "Verdurão do João");
+                return;
+            }
             CaminhaoDeletar formCaminhaDeletar = new CaminhaoDeletar();
             formCaminhaDeletar.Show();
         }
 
         private void porPlacaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (Caminhao.caminhoes.Count == 0)
+            {
+                MessageBox.Show("Não há caminhão registrado ainda\nPara registra um caminhão acesso o menu Caminhão - Registrar", "Verdurão do João");
+                return;
+            }
             CaminhaoProcuraPorPlaca formCaminhaoPorPlaca = new CaminhaoProcuraPorPlaca();
             formCaminhaoPorPlaca.Show();
         }
 
         private void peloProprietárioToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (Caminhao.caminhoes.Count == 0)
+            {
+                MessageBox.Show("Não há caminhão registrado ainda\nPara registra um caminhão acesso o menu Caminhão - Registrar", "Verdurão do João");
+                return;
+            }
             CaminhaoProcuraPorId formCaminhaoPorId = new CaminhaoProcuraPorId();
             formCaminhaoPorId.Show();
         }
@@ -89,6 +104,12 @@ namespace VerduraoDoJoao2._0
         {
             ProdutoModificar formProdutoModificar = new ProdutoModificar();
             formProdutoModificar.Show();
+        }
+
+        private void registraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Promocao_Registro formPromocaoRegistro = new Promocao_Registro();
+            formPromocaoRegistro.Show();
         }
     }
 }
